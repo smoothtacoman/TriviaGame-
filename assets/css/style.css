@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: url("../images/pexels-photo-808510\ \(2\).jpeg");
+}
+
+#trivia-banner{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 60px;
+    height:700px;
+    width: 70%;
+    color:rgb(255, 214, 161);
+    background-color: rgb(1, 90, 1, 0.8);
+    border: groove;
+    border-radius: 25px;
+    border-color: green;
+    text-align: center;
+    margin: 0px auto;
+
+   
+
+
+
+}
