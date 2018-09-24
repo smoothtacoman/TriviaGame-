@@ -1,45 +1,93 @@
-*{
+* {
     box-sizing: border-box;
-    
+
 }
 
-body{
+body {
     background: url("../images/pexels-photo-808510\ \(2\).jpeg");
 }
 
-#trivia-container{
-    height:700px;
+#trivia-container {
+    height: 700px;
     width: 70%;
     background-color: rgba(143, 108, 63, 0.5);
-
     border-radius: 25px;
     border-color: green;
     text-align: center;
     margin: 0px auto;
 }
 
-#game-title{
+#game-title {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 70px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color:rgb(255, 214, 161);
+    color: rgb(255, 214, 161);
 }
 
-.start-button{
+.start-button {
     font-family: 'Notable', sans-serif;
     font-size: 30px;
-    color:rgb(255, 214, 161);
+    color: rgb(255, 214, 161);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     height: 120px;
-    width:300px;    
+    width: 300px;
     background-color: rgb(10, 92, 10);
     border: none;
     border-radius: 15px;
-    margin-top: 50px;
+    margin-top: 130px;
 }
 
-#button-start:hover{
+#button-start:hover {
     background-color: rgb(255, 214, 161);
-    color:  rgb(10, 92, 10);
+    color: rgb(10, 92, 10);
 
 }
 
+#time {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 214, 161);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-top:30px;
+
+}
+
+#question{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 40px;
+    background-color: rgba(112, 41, 41, 0.616);
+    color: rgb(255, 214, 161);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    height: 100px;
+}
+
+#answer1,
+#answer2,
+#answer3,
+#answer4{
+ font-size: 50px;
+ font-family: 'IBM Plex Sans', sans-serif;
+ width:900px;
+ border:solid;
+ border-radius: 15px;
+ color: rgb(255, 214, 161);
+ background-color: rgba(10, 92, 10, 0.671);
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ margin-top:15px;
+
+}
+#answer1:hover,
+#answer2:hover,
+#answer3:hover,
+#answer4:hover {
+    color:rgb(10, 92, 10);
+    background-color:rgba(255, 214, 161, 0.137);
+}
+
+#answer1:focus,
+#answer2:focus,
+#answer3:focus,
+#answer4:focus,
+#button-start:focus{
+    outline:0;
+}
