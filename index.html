@@ -10,33 +10,128 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700i|Notable" rel="stylesheet">
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 
 
 </head>
 
 <body>
+
     <div id="trivia-container">
-        <h1 id="game-title">Wilderness Trivia Game</h1>
-   
-        <button id= "button-start" class="start-button">Start Safari</button>
-        
+        <h1 id="game-title">Safari Trivia Game</h1>
+
+        <button id="button-start" class="start-button">Start Safari</button>
+
         <div id="time"></div>
-            <br>
+        <br>
+        <!--Questions 1-->
+        <div id="masterContainer">
+        <p id="question">The heart of which of the following animals is located in its head?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q1" value= "incorrect">Zebra
 
-            <p id="question">Question: What is a monkey?</p>
-            <br>
-            <button id= "answer1" class="answers">Ugly</button>
-            <button id= "answer2" class="answers">Friend</button>
-            <button id= "answer3" class="answers">Human</button>
-            <button id= "answer4" class="answers">Banana</button>
+            <input type="radio" id="answer2" name="Q1" value= "incorrect">King Cobra
+
+            <input type="radio" id="answer3" class="radio-buttons" name="Q1" value= "correct">Shrimp
+
+            <input type="radio" id="answer4 " name="Q1" value= "incorrect">Lizzard
         </div>
-    </div>
+        <br>
+        <!--Questions 2-->
+        <br>
+        <p id="question">How old was the oldest gorilla?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q2">200 years old
 
-    <script src= "assets/javascript/app.js"></script>
+            <input type="radio" id="answer2" name="Q2">35 years old
+
+            <input type="radio" id="answer3" class="radio-buttons" name="Q2">95 years old
+
+            <input type="radio" id="correct" name="Q2">60 years old
+        </div>
+        <br>
+        <!--Questions 3-->
+        <br>
+        <p id="question">How many stomachs does a cow have?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q3">2
+
+            <input type="radio" id="answer2" name="Q3">4
+            <input type="radio" id="answer3" class="radio-buttons" name="Q3">95
+
+            <input type="radio" id="answer4 " name="Q3">1
+        </div>
+        <br>
+        <!--Questions 4-->
+        <br>
+        <p id="question">Which one of these animals has a top speed of 75 mph?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q4">Cheetah
+
+            <input type="radio" id="answer2" name="Q4">Pig
+
+            <input type="radio" id="answer3" class="radio-buttons" name="Q4">Bear
+
+            <input type="radio" id="answer4 " name="Q4">Hyena
+        </div>
+        <br>
+        <!--Questions 5-->
+        <br>
+        <p id="question">What animal is responisble for the most human deaths?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q5"> Sharks
+
+            <input type="radio" id="answer2" name="Q5">Spiders
+
+            <input type="radio" id="answer3" class="radio-buttons" name="Q5">Snakes
+
+            <input type="radio" id="answer4 " name="Q5">Mosquitos
+        </div>
+        <br>
+        <!--Questions 6-->
+        <br>
+        <p id="question">What country has the most know animal species</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q6">Russia
+
+            <input type="radio" id="answer2" name="Q6">Ecuador
+
+            <input type="radio" id="answer3" class="radio-buttons" name="Q6">Brazil
+
+            <input type="radio" id="answer4 " name="Q6">United States
+        </div>
+        <br>
+        <!--Questions 7-->
+        <br>
+        <p id="question">Which of these is the slowest?</p>
+        <br>
+        <div id="radio-buttons">
+            <input type="radio" id="answer1" name="Q7" value>Panda
+
+            <input type="radio" id="answer2" name="Q7">Three toed sloth
+            <input type="radio" id="answer3" class="radio-buttons" name="Q7">Tortoise
+
+            <input type="radio" id="answer4 " name="Q7">Humming bird
+        </div>
+        <br>
+        <button id="button-end" class="button-end">End Safari</button>
+
+  
+        </div>
+        <div id= "scoreboard">Congrats! How did the Safari go?<br>
+
+        <iframe src="https://giphy.com/embed/5xtDarmsNuUfOVzETug" width="380" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/firstandmonday-clapping-monkey-gorilla-5xtDarmsNuUfOVzETug">
+        </div>
+
+
+     <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

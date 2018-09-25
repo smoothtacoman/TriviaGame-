@@ -8,9 +8,9 @@ body {
 }
 
 #trivia-container {
-    height: 700px;
+    height: 1200px;
     width: 70%;
-    background-color: rgba(143, 108, 63, 0.5);
+    background-color: rgba(143, 108, 63, 0.836);
     border-radius: 25px;
     border-color: green;
     text-align: center;
@@ -37,7 +37,8 @@ body {
     margin-top: 130px;
 }
 
-#button-start:hover {
+#button-start:hover,
+#button-end:hover {
     background-color: rgb(255, 214, 161);
     color: rgb(10, 92, 10);
 
@@ -46,48 +47,54 @@ body {
 #time {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 40px;
-    color: rgb(255, 214, 161);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(229, 255, 0);
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     margin-top:30px;
 
 }
 
 #question{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     background-color: rgba(112, 41, 41, 0.616);
     color: rgb(255, 214, 161);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    height: 100px;
+    height: 37px;
 }
 
-#answer1,
-#answer2,
-#answer3,
-#answer4{
- font-size: 50px;
- font-family: 'IBM Plex Sans', sans-serif;
- width:900px;
- border:solid;
- border-radius: 15px;
- color: rgb(255, 214, 161);
- background-color: rgba(10, 92, 10, 0.671);
- text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
- margin-top:15px;
-
-}
-#answer1:hover,
-#answer2:hover,
-#answer3:hover,
-#answer4:hover {
-    color:rgb(10, 92, 10);
-    background-color:rgba(255, 214, 161, 0.137);
+#radio-buttons{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
 }
 
-#answer1:focus,
-#answer2:focus,
-#answer3:focus,
-#answer4:focus,
-#button-start:focus{
-    outline:0;
+#button-end{
+    font-family: 'Notable', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 214, 161);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    height: 120px;
+    width: 300px;
+    background-color: rgb(10, 92, 10);
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#scoreboard{
+    font-family: 'Notable', sans-serif;
+    font-size: 45px;
+    color: rgb(255, 214, 161);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    height: 700px;
+    width: 700px;
+    background-color: rgba(10, 92, 10, 0.74);
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+   margin:auto;
+
 }
